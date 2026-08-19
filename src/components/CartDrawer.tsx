@@ -64,7 +64,7 @@ export const CartDrawer: React.FC = () => {
     });
 
     body += `%0D%0ASubtotal Estimado: ${formatPrice(totalPricedAmount)}%0D%0A`;
-    window.location.href = `mailto:contacto@emformaa.co.mz?subject=Pedido%20de%20Cotação%20-%20EMFORMA&body=${body}`;
+    window.location.href = `mailto:climatizacao@emformaa.co.mz?subject=Pedido%20de%20Cotação%20-%20EMFORMA&body=${body}`;
   };
 
   return (

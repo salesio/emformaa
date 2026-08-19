@@ -4,19 +4,19 @@ export const initialProducts: Product[] = [
   {
     id: 'prod-1',
     name: {
-      pt: 'Ar Condicionado Split Inverter 12.000 BTU',
-      en: 'Split Inverter Air Conditioner 12,000 BTU'
+      pt: 'Ar Condicionado Split Inverter High-Wall 12.000 BTU',
+      en: 'Split Inverter Wall-Mounted Air Conditioner 12,000 BTU'
     },
     category: 'ac',
     description: {
-      pt: 'Sistema de climatização de elevada eficiência energética R32 com tecnologia Inverter e operação ultra-silenciosa.',
-      en: 'High efficiency R32 climate system featuring Inverter technology and ultra-quiet operation.'
+      pt: 'Sistema mural de climatização residencial e de escritório com refrigerante R32, filtro antibacteriano e consumo de energia reduzido até 60%.',
+      en: 'Wall-mounted residential and office climate system featuring R32 refrigerant, anti-bacterial filter, and up to 60% energy savings.'
     },
     specs: {
-      pt: ['Capacidade: 12.000 BTU', 'Gás Refrigerante: R32', 'Eficiência: Classe A++', 'Filtro Anti-bacteriano'],
-      en: ['Capacity: 12,000 BTU', 'Refrigerant: R32', 'Efficiency: Class A++', 'Anti-bacterial Filter']
+      pt: ['Capacidade: 12.000 BTU', 'Gás Refrigerante: R32 Ecológico', 'Eficiência: Classe A+++', 'Filtro HD Anti-bacteriano', 'Garantia: 3 Anos'],
+      en: ['Capacity: 12,000 BTU', 'Refrigerant: Eco R32', 'Efficiency: Class A+++', 'HD Anti-bacterial Filter', 'Warranty: 3 Years']
     },
-    image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80',
+    image: './images/Instalancao-de-AC-Maputo.jpg',
     priceMode: 'exposed',
     price: 34500,
     inStock: true,
@@ -30,14 +30,14 @@ export const initialProducts: Product[] = [
     },
     category: 'refrigeration',
     description: {
-      pt: 'Câmara de conservação de frescos e congelados para supermercados, talhos e restaurantes com painéis isolantes de poliuretano.',
-      en: 'Cold storage room for fresh and frozen goods in supermarkets, butcher shops, and restaurants with polyurethane panels.'
+      pt: 'Câmara de conservação de frescos e congelados para supermercados, talhos e restaurantes com painéis isolantes de poliuretano 100mm.',
+      en: 'Cold storage room for fresh and frozen goods in supermarkets, butcher shops, and restaurants with 100mm PUR polyurethane panels.'
     },
     specs: {
-      pt: ['Dimensões: 300x300x240cm', 'Painéis: 100mm PUR', 'Unidade Condensadora Silenciosa', 'Porta Pivotante com Fechadura'],
-      en: ['Dimensions: 300x300x240cm', 'Panels: 100mm PUR', 'Silent Condensing Unit', 'Hinged Door with Lock']
+      pt: ['Dimensões: 300x300x240cm', 'Painéis: 100mm PUR Densidade High', 'Unidade Condensadora Silenciosa', 'Porta Pivotante com Fechadura de Emergência'],
+      en: ['Dimensions: 300x300x240cm', 'Panels: 100mm PUR High Density', 'Silent Condensing Unit', 'Hinged Door with Safety Lock']
     },
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80',
+    image: './images/conte-com-a-emforma.jpg',
     priceMode: 'on_request',
     inStock: true,
     featured: true
@@ -45,17 +45,17 @@ export const initialProducts: Product[] = [
   {
     id: 'prod-3',
     name: {
-      pt: 'Ar Condicionado Cassete 4 Vias 36.000 BTU',
+      pt: 'Ar Condicionado Cassete 4 Vias Teto 36.000 BTU',
       en: '4-Way Ceiling Cassette Air Conditioner 36,000 BTU'
     },
     category: 'ac',
     description: {
-      pt: 'Ideal para escritórios, salas de reunião e lojas comerciais. Distribuição de ar 360º e bomba de dreno integrada.',
-      en: 'Ideal for offices, conference rooms, and commercial retail. 360º air flow and built-in drain pump.'
+      pt: 'Ideal para escritórios comerciais, auditórios e restaurantes. Distribuição de ar a 360º com bomba de condensados incorporada.',
+      en: 'Ideal for commercial offices, auditoriums, and restaurants. 360º airflow distribution with built-in condensate pump.'
     },
     specs: {
-      pt: ['Capacidade: 36.000 BTU', 'Alimentação: Trifásico 380V', 'Fluxo de ar 360º', 'Controlo Remoto Sem Fios'],
-      en: ['Capacity: 36,000 BTU', 'Power: Three-phase 380V', '360º Air Distribution', 'Wireless Remote Controller']
+      pt: ['Capacidade: 36.000 BTU', 'Alimentação: Trifásico 380V / 50Hz', 'Fluxo de ar 360º Silencioso', 'Painel Ultrafino de Embutir'],
+      en: ['Capacity: 36,000 BTU', 'Power: Three-phase 380V / 50Hz', '360º Silent Airflow', 'Ultra-slim Flush Panel']
     },
     image: 'https://images.unsplash.com/photo-1631545806085-efb5f7e7fdfd?auto=format&fit=crop&w=800&q=80',
     priceMode: 'exposed',
@@ -66,13 +66,34 @@ export const initialProducts: Product[] = [
   {
     id: 'prod-4',
     name: {
+      pt: 'Ar Condicionado Chão-Teto Inverter 48.000 BTU',
+      en: 'Floor-Ceiling Heavy Duty Inverter AC 48,000 BTU'
+    },
+    category: 'ac',
+    description: {
+      pt: 'Equipamento flexível para fixação no chão ou no teto, projetado para grandes áreas de loja e salas comerciais.',
+      en: 'Flexible unit for floor or ceiling mounting, engineered for large commercial retail spaces and halls.'
+    },
+    specs: {
+      pt: ['Capacidade: 48.000 BTU', 'Alcance do fluxo de ar: até 15 metros', 'Controlo remoto digital', 'Rearranque automático pós-corte'],
+      en: ['Capacity: 48,000 BTU', 'Airflow throw: up to 15 meters', 'Digital remote controller', 'Auto restart after power outage']
+    },
+    image: './images/escolher-emforma.jpg',
+    priceMode: 'exposed',
+    price: 115000,
+    inStock: true,
+    featured: false
+  },
+  {
+    id: 'prod-5',
+    name: {
       pt: 'Cortina de Ar Comercial 1.5 Metros',
       en: 'Commercial Air Curtain 1.5 Meters'
     },
     category: 'ventilation',
     description: {
-      pt: 'Barreira térmica eficaz contra insetos, poeira e perda de ar frio nas entradas de estabelecimentos comerciais.',
-      en: 'Effective thermal barrier against insects, dust, and cold air loss at commercial entrances.'
+      pt: 'Barreira térmica eficaz contra insetos, poeira e perda de ar condicionado nas entradas de lojas e estabelecimentos.',
+      en: 'Effective thermal barrier against insects, dust, and air conditioning loss at retail store entrances.'
     },
     specs: {
       pt: ['Largura: 1500mm', 'Velocidade do ar: 11 m/s', 'Baixo Nível Sonoro', 'Controlo Remoto Incluído'],
@@ -85,7 +106,7 @@ export const initialProducts: Product[] = [
     featured: false
   },
   {
-    id: 'prod-5',
+    id: 'prod-6',
     name: {
       pt: 'Chiller Industrial Água Gelada 50 TR',
       en: '50 TR Industrial Water Chiller'
@@ -105,7 +126,7 @@ export const initialProducts: Product[] = [
     featured: true
   },
   {
-    id: 'prod-6',
+    id: 'prod-7',
     name: {
       pt: 'Exaustor Centrífugo para Cozinhas Industriais',
       en: 'Centrifugal Exhaust Fan for Commercial Kitchens'
@@ -126,7 +147,7 @@ export const initialProducts: Product[] = [
     featured: false
   },
   {
-    id: 'prod-7',
+    id: 'prod-8',
     name: {
       pt: 'Compressor Hermético de Refrigeração 2HP R404A',
       en: '2HP R404A Hermetic Refrigeration Compressor'
@@ -147,7 +168,7 @@ export const initialProducts: Product[] = [
     featured: false
   },
   {
-    id: 'prod-8',
+    id: 'prod-9',
     name: {
       pt: 'Sistema VRF Central Multizona 14 HP',
       en: '14 HP Multizone Central VRF System'

@@ -1,7 +1,8 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { useShop } from '../context/ShopContext';
-import { Product } from '../types';
+import { HeroCarousel } from '../components/HeroCarousel';
+import { BrandPartners } from '../components/BrandPartners';
 import { 
   Wind, 
   Snowflake, 
@@ -10,9 +11,7 @@ import {
   Award, 
   Users, 
   Clock, 
-  CheckCircle2, 
   ArrowRight, 
-  ShieldCheck, 
   ShoppingBag,
   Send
 } from 'lucide-react';
@@ -34,71 +33,11 @@ export const Home: React.FC<HomeProps> = ({ setCurrentPage }) => {
   return (
     <div className="space-y-16 pb-16">
       
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-brand-navy-dark via-brand-navy to-slate-900 text-white overflow-hidden py-20 lg:py-28">
-        {/* Decorative Grid Overlay */}
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:24px_24px]" />
-        
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            
-            <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 bg-brand-blue/20 text-brand-blue-light border border-brand-blue/40 px-3.5 py-1.5 rounded-full text-xs font-bold uppercase tracking-wide">
-                <ShieldCheck className="w-4 h-4 text-emerald-400" />
-                <span>{t('hero_badge')}</span>
-              </div>
+      {/* Hero Carousel Section */}
+      <HeroCarousel setCurrentPage={setCurrentPage} />
 
-              <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
-                {t('hero_title')}
-              </h1>
-
-              <p className="text-slate-300 text-base sm:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                {t('hero_subtitle')}
-              </p>
-
-              <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
-                <button
-                  onClick={() => openQuoteModal()}
-                  className="w-full sm:w-auto bg-brand-blue hover:bg-brand-blue-dark text-white text-sm font-extrabold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 flex items-center justify-center gap-2"
-                >
-                  <span>{t('hero_cta_quote')}</span>
-                  <ArrowRight className="w-4 h-4" />
-                </button>
-
-                <button
-                  onClick={() => setCurrentPage('shop')}
-                  className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white border border-white/20 text-sm font-bold px-8 py-4 rounded-xl backdrop-blur-sm transition-all duration-200 flex items-center justify-center gap-2"
-                >
-                  <ShoppingBag className="w-4 h-4 text-brand-blue-light" />
-                  <span>{t('hero_cta_shop')}</span>
-                </button>
-              </div>
-            </div>
-
-            {/* Hero Image Card Showcase */}
-            <div className="lg:col-span-5">
-              <div className="relative rounded-2xl p-2 bg-gradient-to-b from-slate-700/50 to-slate-800/80 border border-slate-700/80 shadow-2xl">
-                <img
-                  src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=1000&q=80"
-                  alt="HVAC Installation EMFORMA"
-                  className="rounded-xl object-cover w-full h-80 lg:h-96"
-                />
-                
-                <div className="absolute -bottom-6 -left-6 bg-white text-slate-800 p-4 rounded-xl shadow-xl border border-slate-100 hidden sm:flex items-center gap-3">
-                  <div className="p-3 bg-emerald-100 rounded-lg text-emerald-600">
-                    <CheckCircle2 className="w-6 h-6" />
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-extrabold">Assistência Técnica Maputo</h4>
-                    <p className="text-xs text-slate-500">Garantia total de funcionamento</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
+      {/* Brand Partners Showcase */}
+      <BrandPartners />
 
       {/* Stats Counter Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

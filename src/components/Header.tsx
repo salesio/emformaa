@@ -3,6 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 import { useShop } from '../context/ShopContext';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { ShoppingBag, Phone, Mail, Clock, Menu, X, ShieldCheck } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 interface HeaderProps {
   currentPage: string;
@@ -41,9 +42,9 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) =
               <Phone className="w-3.5 h-3.5 text-brand-blue-light" />
               <span>{t('top_phone')}</span>
             </a>
-            <a href="mailto:contacto@emformaa.co.mz" className="hidden sm:flex items-center gap-1.5 hover:text-brand-blue-light transition-colors">
+            <a href="mailto:climatizacao@emformaa.co.mz" className="hidden sm:flex items-center gap-1.5 hover:text-brand-blue-light transition-colors">
               <Mail className="w-3.5 h-3.5 text-brand-blue-light" />
-              <span>{t('top_email')}</span>
+              <span>climatizacao@emformaa.co.mz</span>
             </a>
             <span className="hidden lg:flex items-center gap-1.5 text-slate-400">
               <Clock className="w-3.5 h-3.5 text-brand-blue-light" />
@@ -66,7 +67,7 @@ export const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage }) =
             className="flex items-center gap-3 focus:outline-none group"
           >
             <img 
-              src="/Emformaa-logo.png" 
+              src={logoImg} 
               alt="EMFORMA Logo" 
               className="h-11 md:h-14 w-auto object-contain transition-transform group-hover:scale-105 duration-200" 
             />

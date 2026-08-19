@@ -13,16 +13,23 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Top Bar
     top_phone: '+258 82 162 2018',
-    top_email: 'contacto@emformaa.co.mz',
+    top_email: 'climatizacao@emformaa.co.mz',
     top_address: 'Av. Emília Daússe, C, Flat 02, Maputo',
     top_hours: 'Seg - Sex: 08:00 - 17:00 | Sáb: 08:00 - 14:30',
 
-    // Hero Section
-    hero_title: 'Excelência em Climatização, Refrigeração e Ventilação',
-    hero_subtitle: 'Soluções profissionais de AVAC para residências, comércio e indústria em Moçambique desde 2018. Fornecimento, instalação e manutenção de alta qualidade.',
+    // Hero Section & Carousel
+    hero_title_1: 'Excelência em Climatização, Refrigeração e Ventilação',
+    hero_sub_1: 'Soluções profissionais de AVAC para residências, comércio e indústria em Moçambique desde 2018. Fornecimento, instalação e manutenção de alta qualidade.',
+    hero_title_2: 'Instalação & Assistência Técnica Especializada em Maputo',
+    hero_sub_2: 'Técnicos certificados para montagem e reparação de ar condicionado Split, VRF e câmaras frigoríficas industriais com garantia total.',
+    hero_title_3: 'As Melhores Marcas Mundiais de Ar Condicionado',
+    hero_sub_3: 'Distribuição e manutenção de marcas líderes: Gree, Midea, LG, Carrier, Samsung e Hisense com máxima eficiência energética.',
     hero_cta_quote: 'Solicitar Cotação Grátis',
     hero_cta_shop: 'Explorar Nossos Produtos',
     hero_badge: 'Empresa Líder em Moçambique desde 2018',
+
+    // Partners
+    partner_title: 'Trabalhamos com as Melhores Marcas Globais',
 
     // Stats
     stat_years: 'Anos de Experiência',
@@ -63,7 +70,7 @@ export const translations: Record<Language, Record<string, string>> = {
     services_title: 'Nossos Serviços Especializados',
     services_sub: 'Soluções completas desde a conceção do projeto até à manutenção preventiva e assistência de emergência.',
     service_ac_title: 'Climatização & Ar Condicionado',
-    service_ac_desc: 'Venda, dimensionamento e instalação de sistemas Split, Multi-Split, VRF/VRV e centrais de ar condicionado para habitação e empresas.',
+    service_ac_desc: 'Venda, dimensionamento e instalação de sistemas Split, Multi-Split, VRF/VRV, Cassete e centrais de ar condicionado para habitação e empresas.',
     service_refrig_title: 'Refrigeração Comercial & Industrial',
     service_refrig_desc: 'Conceção e montagem de câmaras frigoríficas (conservação e congelação), balcões refrigerados, chillers e centrais frigoríficas.',
     service_vent_title: 'Sistemas de Ventilação & Exaustão',
@@ -74,8 +81,8 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Shop Page
     shop_title: 'Catálogo de Produtos',
-    shop_sub: 'Encontre equipamentos de ar condicionado, sistemas de refrigeração e componentes técnicos.',
-    shop_search_placeholder: 'Pesquisar por modelo, marca ou produto...',
+    shop_sub: 'Encontre equipamentos de ar condicionado (Split, Cassete, VRF, Chão-Teto), sistemas de refrigeração e componentes técnicos.',
+    shop_search_placeholder: 'Pesquisar por modelo, marca (Gree, LG, Midea...) ou produto...',
     cat_all: 'Todos os Produtos',
     cat_ac: 'Ar Condicionado',
     cat_refrigeration: 'Refrigeração',
@@ -166,16 +173,23 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Top Bar
     top_phone: '+258 82 162 2018',
-    top_email: 'contacto@emformaa.co.mz',
+    top_email: 'climatizacao@emformaa.co.mz',
     top_address: 'Av. Emília Daússe, C, Flat 02, Maputo',
     top_hours: 'Mon - Fri: 08:00 - 17:00 | Sat: 08:00 - 14:30',
 
-    // Hero Section
-    hero_title: 'Excellence in Air Conditioning, Refrigeration & Ventilation',
-    hero_subtitle: 'Professional HVAC solutions for residential, commercial, and industrial clients in Mozambique since 2018. Top-quality supply, installation, and maintenance.',
+    // Hero Section & Carousel
+    hero_title_1: 'Excellence in Air Conditioning, Refrigeration & Ventilation',
+    hero_sub_1: 'Professional HVAC solutions for residential, commercial, and industrial clients in Mozambique since 2018. Top-quality supply, installation, and maintenance.',
+    hero_title_2: 'Specialized HVAC Installation & Technical Service in Maputo',
+    hero_sub_2: 'Certified technicians for Split, VRF air conditioning assembly and industrial cold room repair with complete guarantee.',
+    hero_title_3: 'The World’s Leading Air Conditioning Brands',
+    hero_sub_3: 'Distribution and technical maintenance for top brands: Gree, Midea, LG, Carrier, Samsung, and Hisense with maximum energy efficiency.',
     hero_cta_quote: 'Request Free Quote',
     hero_cta_shop: 'Explore Our Products',
     hero_badge: 'Leading Mozambique HVAC Company since 2018',
+
+    // Partners
+    partner_title: 'We Partner with Top Global Brands',
 
     // Stats
     stat_years: 'Years of Experience',
@@ -216,7 +230,7 @@ export const translations: Record<Language, Record<string, string>> = {
     services_title: 'Our Specialized Services',
     services_sub: 'Comprehensive solutions from project design to preventive maintenance and emergency support.',
     service_ac_title: 'Air Conditioning & Climate Control',
-    service_ac_desc: 'Sale, sizing, and installation of Split, Multi-Split, VRF/VRV, and central air conditioning units for homes and commercial facilities.',
+    service_ac_desc: 'Sale, sizing, and installation of Split, Multi-Split, VRF/VRV, Ceiling Cassette, and central air conditioning units for homes and commercial facilities.',
     service_refrig_title: 'Commercial & Industrial Refrigeration',
     service_refrig_desc: 'Design and assembly of cold rooms (chillers and freezers), refrigerated display cases, water chillers, and industrial racks.',
     service_vent_title: 'Ventilation & Exhaust Systems',
@@ -227,8 +241,8 @@ export const translations: Record<Language, Record<string, string>> = {
 
     // Shop Page
     shop_title: 'Product Catalog',
-    shop_sub: 'Find premium air conditioners, refrigeration systems, and spare technical parts.',
-    shop_search_placeholder: 'Search by model, brand, or product...',
+    shop_sub: 'Find premium air conditioners (Split, Cassette, VRF, Floor-Standing), refrigeration systems, and spare technical parts.',
+    shop_search_placeholder: 'Search by model, brand (Gree, LG, Midea...), or product...',
     cat_all: 'All Products',
     cat_ac: 'Air Conditioners',
     cat_refrigeration: 'Refrigeration',

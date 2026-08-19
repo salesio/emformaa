@@ -90,8 +90,8 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-slate-900 text-xs uppercase tracking-wider">{t('contact_email_label')}</h4>
-                    <a href="mailto:contacto@emformaa.co.mz" className="mt-1 block text-brand-blue font-semibold hover:underline">
-                      contacto@emformaa.co.mz
+                    <a href="mailto:climatizacao@emformaa.co.mz" className="mt-1 block text-brand-blue font-semibold hover:underline">
+                      climatizacao@emformaa.co.mz
                     </a>
                   </div>
                 </div>

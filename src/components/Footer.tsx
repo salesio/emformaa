@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { Phone, Mail, MapPin, Clock, ArrowUpRight, ShieldCheck } from 'lucide-react';
+import logoImg from '../assets/logo.png';
 
 interface FooterProps {
   setCurrentPage: (page: string) => void;
@@ -23,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img 
-                src="/Emformaa-logo.png" 
+                src={logoImg} 
                 alt="EMFORMA Logo" 
                 className="h-12 w-auto bg-white p-1.5 rounded-lg" 
               />
@@ -92,7 +93,7 @@ export const Footer: React.FC<FooterProps> = ({ setCurrentPage }) => {
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-brand-blue-light shrink-0" />
-                <a href="mailto:contacto@emformaa.co.mz" className="hover:text-white transition-colors">{t('top_email')}</a>
+                <a href="mailto:climatizacao@emformaa.co.mz" className="hover:text-white transition-colors">climatizacao@emformaa.co.mz</a>
               </li>
             </ul>
           </div>
